@@ -1,4 +1,6 @@
-﻿#include "koeffs.h"
+﻿/*regressions*/
+
+#include "koeffs.h"
 
 double calculate_middle_time(
         thrust::detail::vector_base<double, thrust::device_malloc_allocator<double>>::iterator normal_iterator,
